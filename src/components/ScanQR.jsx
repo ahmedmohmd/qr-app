@@ -25,7 +25,10 @@ function ScanQR() {
                 value={data}
                 rows="10"
                 cols="40"
-                class="font-itim text-semibold outline-none resize-none block p-2.5 w-full text-xl lg:text-2xl text-slate-500  bg-gray-50 rounded-xl border-4 border-gray-300  focus:border-blue-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                class={
+                  "font-itim text-semibold outline-none resize-none block p-2.5 w-full text-xl lg:text-2xl text-slate-500  bg-gray-50 rounded-xl border-4 border-gray-300  focus:border-blue-400  " +
+                  (data === "No result" ? "text-slate-500" : "text-violet-500")
+                }
               ></textarea>
               <button
                 onFocus={() => setCopy("Copied!")}
