@@ -64,7 +64,7 @@ function ScanQR() {
                   console.info(error);
                 }
               }}
-              className="!w-full !h- full rounded-2xl bg-slate-700"
+              className="!w-full !h- full rounded-2xl bg-slate-900"
               constraints={{ facingMode: { exact: "environment" } }}
             />
           </div>
