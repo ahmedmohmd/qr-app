@@ -23,7 +23,6 @@ function ScanQR() {
                 id="message"
                 readOnly={true}
                 value={data}
-                rows="1"
                 cols="40"
                 class={
                   "font-itim text-semibold outline-none resize-none block p-2.5 w-full text-2xl lg:text-3xl text-slate-500  bg-gray-50 rounded-xl border-4 border-gray-300  focus:border-blue-400  " +
