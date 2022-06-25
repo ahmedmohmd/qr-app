@@ -62,7 +62,7 @@ function ScanQR() {
                 }
               }}
               className="!w-full !h- full rounded-2xl bg-slate-700"
-              constraints={{ facingMode: "user" }}
+              constraints={{ facingMode: { exact: "environment" } }}
             />
           </div>
           <div class="lg:hidden w-1/3 h-2 bg-indigo-500 rounded"></div>
