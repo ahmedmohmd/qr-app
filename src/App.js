@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+//* Imports
+import { Routes, Route } from "react-router-dom";
+import CreateQR from "./components/CreateQR";
+import Home from "./components/Home";
+import ScanQR from "./components/ScanQR";
 
+//* APP JSX
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/create" element={<CreateQR />} />
+        <Route path="/scan" element={<ScanQR />} />
+      </Routes>
     </div>
   );
 }
