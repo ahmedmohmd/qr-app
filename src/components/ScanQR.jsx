@@ -10,7 +10,7 @@ function ScanQR() {
     <div class="relative text-gray-600 body-font min-h-screen">
       <div class="lg:pt-26 h-full container mx-auto flex px-5 pt-16 lg:flex-row flex-col gap-12 lg:gap-10 items-center lg:items-start">
         <div class="order-2 lg:order-1 lg:flex-grow md:w-2/3  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <div className="flex flex-col items-center justify-center gap-5 lg:pt-52 ">
+          <div className="flex flex-col items-center justify-center gap-5 ">
             <Link
               to="/"
               className="flex items-center justify-center order-2 w-24 h-24 p-5 duration-500 rounded-full lg:order-1 hover:bg-orange-100"
@@ -21,11 +21,12 @@ function ScanQR() {
             <div className="relative order-1 lg:order-2">
               <textarea
                 id="message"
+                rows="10"
                 readOnly={true}
                 value={data}
                 cols="40"
                 class={
-                  "font-itim text-semibold outline-none resize-none block p-2.5 w-full text-2xl lg:text-3xl text-slate-500  bg-gray-50 rounded-xl border-4 border-gray-300  focus:border-blue-400  " +
+                  "font-itim text-semibold outline-none resize-none block p-2.5 w-full text-xl lg:text-2xl text-white-500  bg-gray-50 rounded-xl border-4 border-gray-300  focus:border-blue-400  " +
                   (data === "No result" ? "text-slate-500" : "text-violet-500")
                 }
               ></textarea>
@@ -36,10 +37,10 @@ function ScanQR() {
                   window.navigator.clipboard.writeText(data);
                 }}
                 className={
-                  "absolute px-4 py-2 rounded-xl right-3 top-1/2 -translate-y-1/2 " +
+                  "absolute px-4 py-2 rounded-xl font-semibold right-4 bottom-4 text-white " +
                   (copy === "Copied!"
                     ? "bg-violet-700 text-white"
-                    : "bg-slate-400 text-slate-700")
+                    : "bg-slate-400 ")
                 }
               >
                 {copy}
