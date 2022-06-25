@@ -1,10 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { QrReader } from "react-qr-reader";
 import { Link } from "react-router-dom";
 
 function ScanQR() {
   const [data, setData] = useState("No result");
   const [copy, setCopy] = useState("Copy");
+
+  useEffect(() => {
+    document
+      .querySelector('meta[name="theme-color"]')
+      .setAttribute("content", "#5858d3");
+  }, []);
 
   return (
     <div class="relative text-gray-600 body-font min-h-screen">
