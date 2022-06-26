@@ -1,7 +1,9 @@
+//* Imports
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
 
+//* Home JSX
 function Home() {
   return (
     <div className="h-screen">
@@ -71,7 +73,7 @@ function Home() {
                         opacity: 1,
                       },
                     }}
-                    className="p-5 bg-white rounded-2xl"
+                    className="p-5 duration-300 bg-white rounded-2xl hover:!scale-90 active:translate-y-2"
                   >
                     <Link to="/create">
                       <img
@@ -89,7 +91,7 @@ function Home() {
                         opacity: 1,
                       },
                     }}
-                    className="p-5 bg-white rounded-2xl"
+                    className="p-5 duration-300 bg-white rounded-2xl hover:!scale-90 active:translate-y-2"
                   >
                     <Link to="/scan">
                       {" "}

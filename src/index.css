@@ -1,7 +1,9 @@
+/* Tailwind Setup */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Itim Font */
 @font-face {
   font-family: "Itim";
   src: url("https://fonts.googleapis.com/css2?family=Itim&display=swap");

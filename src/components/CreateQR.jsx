@@ -1,16 +1,12 @@
+//* Imports
 import { useState } from "react";
 import { QRCodeSVG, QRCodeCanvas } from "qrcode.react";
 import { Link } from "react-router-dom";
 
+//* CreateQR JSX
 function CreateQR() {
   const [qrValue, setQrValue] = useState("");
   const [btnState, setBtnState] = useState(false);
-
-  useEffect(() => {
-    document
-      .querySelector('meta[name="theme-color"]')
-      .setAttribute("content", "#5858d3");
-  }, []);
 
   return (
     <div class="relative text-gray-600 body-font min-h-screen">

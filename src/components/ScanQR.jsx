@@ -1,7 +1,9 @@
+//* Imports
 import { useEffect, useState } from "react";
 import { QrReader } from "react-qr-reader";
 import { Link } from "react-router-dom";
 
+//* ScanQR JSX
 function ScanQR() {
   const [data, setData] = useState("No result");
   const [copy, setCopy] = useState("Copy");
