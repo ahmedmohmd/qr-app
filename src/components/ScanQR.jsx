@@ -8,12 +8,6 @@ function ScanQR() {
   const [data, setData] = useState("No result");
   const [copy, setCopy] = useState("Copy");
 
-  useEffect(() => {
-    document
-      .querySelector('meta[name="theme-color"]')
-      .setAttribute("content", "#5858d3");
-  }, []);
-
   return (
     <div class="relative text-gray-600 body-font min-h-screen">
       <div class="lg:pt-26 h-full container mx-auto flex px-5 pt-16 lg:flex-row flex-col gap-12 lg:gap-10 items-center lg:items-start">
