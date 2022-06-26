@@ -47,4 +47,4 @@ QR App is an app for Creating and Scanning QR Code in The Fastest Way and Comple
 
 # App's Screenshot
 
-<!-- ![Country Finder Website Screenshot](https://github.com/ahmedmohmd/country-finder/blob/main/app-screenshot.png?raw=true) -->
+![QR App Screenshot](https://github.com/ahmedmohmd/qr-app/blob/main/app-screenshot.png?raw=true)
