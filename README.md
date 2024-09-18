@@ -1,50 +1,56 @@
 # QR App
 
-This is the **Frontend Source Code** for [**QR App**](https://qr-app-peach.vercel.app/).
+## 🚀 Brief Overview
 
----
+QR App is a fast and free tool for creating and scanning QR codes with ease. Designed with a sleek, responsive layout using Tailwind CSS, the app provides a smooth user experience across all devices. Its clean design, coupled with nice animations, ensures both functionality and aesthetics. Built with React.js, JavaScript, HTML, and CSS, QR App delivers lightning-fast performance, making it the go-to solution for generating and scanning QR codes effortlessly. Whether you're on mobile or desktop, QR App offers a seamless experience for all your QR code needs.
 
-# Discreption
+## ✨ Key Features
 
-QR App is an app for Creating and Scanning QR Code in The Fastest Way and Completely Free.
+1. Responsive Design
+2. Awesome Design thanks to **tailwind** and **Preline UI**.
+3. Nice perfomance.
 
----
+## 🛠️ Tech Stack
 
-# App Features
-
-- Reponsive
-- Nice Design with Tailwind Framework
-- Speed & Good Performance with Tailwind Framework
-- Nice Animations
-
----
-
-# Languages & Technologies
-
-### Languages That used in this Web App:
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=ar"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png" width="48" height="48"/></a>
-</div>
-
-### Technolohies & Frameworks that used in this App:
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://tailwindcss.com/"><img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="48" height="48"/></a>
-</div>
-
-### Other Libs & Packages:
-
+- React.js
+- TailwindCSS
 - [**React Router**](https://reactrouter.com/)
 - [**Framer Motion**](https://www.framer.com/motion/)
 - [**qrcode.react**](https://www.npmjs.com/package/qrcode.react)
 - [**react-qr-reader**](https://www.npmjs.com/package/react-qr-reader)
 
----
+## 🔧 Install Instructions
 
-# App's Screenshot
+1. Clone the repo
+
+```bash
+    git clone https://github.com/ahmedmohmd/qr-app.git
+
+```
+
+2. Install dependencies
+
+```bash
+  yarn install
+
+```
+
+3. Run the App
+
+```bash
+  yarn run dev
+
+```
+
+## 🖥️ Usage
+
+1. You can create QR Code.
+2. You can scan QR Code with your camera.
+
+## 👀 Demo
+
+[QR Code App](https://qr-app-peach.vercel.app/)
+
+## 🖼️ Application's Screeshots
 
 ![QR App Screenshot](https://github.com/ahmedmohmd/qr-app/blob/main/app-screenshot.png?raw=true)
